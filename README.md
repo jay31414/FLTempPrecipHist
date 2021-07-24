@@ -19,7 +19,7 @@ Important: For any given Julian day, if data was not available for BOTH the firs
 
 For example, when "FLHistMinMax.pl" is executed using Perl, station 80211 produces four R script files:
 
-1) 80211_1931_2019_M.txt 2) 80211_1931_2019_N.txt, 3) 80211_1931_2019_P.txt, and 4) 80211_1931_2019_X.txt.
+1) 80211_1931_2019_M.txt 2) 80211_1931_2019_N.txt, 3) 80211_1931_2019_X.txt, and 4) 80211_1931_2019_P.txt.
 
 80211_1931_2019_M.txt - Historical Minimum Temperature for station 80211
 
