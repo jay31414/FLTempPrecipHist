@@ -17,15 +17,17 @@ On these graphs, the x axis is the Julian day, and the y axis is for either temp
 
 Important: For any given Julian day, if data was not available for BOTH the first and last year specified, that day in it's entirety was not included.
 
-For example, when "FLHistMinMax.pl" is executed using Perl, station 80211 produces four R script files: 1) 80211M.txt 2) 80211N.txt, 3) 80211P.txt, and 4) 80211X.txt.
+For example, when "FLHistMinMax.pl" is executed using Perl, station 80211 produces four R script files:
 
-80211M.txt - Historical Minimum Temperature for station 80211
+1) 80211_1931_2019_M.txt 2) 80211_1931_2019_N.txt, 3) 80211_1931_2019_P.txt, and 4) 80211_1931_2019_X.txt.
 
-80211N.txt - Historical Mean Temperature for station 80211
+80211_1931_2019_M.txt - Historical Minimum Temperature for station 80211
 
-80211X.txt - Historical Maximum Temperature for station 80211
+80211_1931_2019_N.txt - Historical Mean Temperature for station 80211
 
-80211P.txt - Historical Precipitation for station 80211
+80211_1931_2019_X.txt - Historical Maximum Temperature for station 80211
+
+80211_1931_2019_P.txt - Historical Precipitation for station 80211
 
 When these rscript files when executed from R (ggplot2 is required), the following plots are produced:
 
