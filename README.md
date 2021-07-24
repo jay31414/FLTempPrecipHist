@@ -51,15 +51,24 @@ HOW TO USE
 FILE DESCRIPTIONS
 -----------------
 AllSave.zip                 - Zip file of AllSave.csv. All stations, all years, mean temperature, minimum temperature, maximum temperature, and precipitation downloaded from the above site.
+
                               There should be 360 files (90 stations, 4 files per station), but 4 appear to be missing.
+
 FLTempPrecipHistRscript.zip - Zip file of all r script files (mean temperature, minimum temperature, maximum temperature, and precipitation for all stations)
+
 FLTempPrecipHistPlot.zip    - Zip file of all plots. (mean temperature, minimum temperature, maximum temperature, and precipitation plots for all stations)
+
 FLHistMinMax.pl             - Examines data from AllSave.csv and generates all r script files and FLHistScriptGen.bat files.
                               This program can also be executed for a single station.
+
 FLHistMinMax.exe            - Generated from source FLHistMinMax.pl using "Perl Packer".
+
 FLHistScriptGen.bat         - If R is installed on your machine, execution of this batch file from a command prompt, will read all the r script files and generate 4 plots for each station. Each graph will contains two years - the first and next to the last year.
+
 Stations.txt                - List of all station id's and descriptions
+
 Stations.zip                - Data for each individual station (one file per station)
+
 
 SOFTWARE VERSIONS USED
 
